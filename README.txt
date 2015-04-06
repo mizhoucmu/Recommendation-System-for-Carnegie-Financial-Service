@@ -96,3 +96,6 @@ Description:
 	
 	it also print the average accuracy for this cross validation at the end of the file:
 	average accuracy of this cross validation is 0.861111111111111
+
+Reference:
+《Data Mining: Practical Machine Learning Tools and Techniques, Third Edition》 http://www.amazon.com/Data-Mining-Practical-Techniques-Management/dp/0123748569/ref=sr_1_1?ie=UTF8&qid=1428291671&sr=8-1&keywords=Data+Mining%3A+Practical+Machine+Learning+Tools+and+Techniques

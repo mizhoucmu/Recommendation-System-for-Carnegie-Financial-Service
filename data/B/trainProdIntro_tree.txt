@@ -1,0 +1,13 @@
+
+highest accuracy = 0.95625, best threshhold = 0.30125720377310217
+
+Advertisement_budget <= 1.49
+|----Period <= 50.0
+|----|----Monthly_fee <= 1.74 [1] out of {1x14}
+|----|----Monthly_fee > 1.74
+|----|----|----Customer = Student [0] out of {0x3}
+|----|----|----Customer = Professional [1] out of {1x2}
+|----|----|----Customer = Business [1] out of {1x5}
+|----|----|----Customer = Doctor [0] out of {0x4}
+|----Period > 50.0 [0] out of {1x4 0x51}
+Advertisement_budget > 1.49 [1] out of {1x61}

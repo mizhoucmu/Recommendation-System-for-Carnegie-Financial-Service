@@ -1,0 +1,30 @@
+
+highest accuracy = 0.861111111111111, best threshhold = 0.5745948025882839
+
+Vacation <= 24.0
+|----Type = student
+|----|----salary <= 16.96 [C1] out of {C3x1 C1x11}
+|----|----salary > 16.96 [C3] out of {C4x1 C3x11}
+|----Type = professor [C2] out of {C2x11}
+|----Type = librarian [C2] out of {C4x1 C2x12}
+|----Type = engineer [C1] out of {C1x6}
+|----Type = doctor [C3] out of {C3x25}
+Vacation > 24.0
+|----eCredit <= 26.0
+|----|----Vacation <= 46.0
+|----|----|----Type = student [C1] out of {C1x2}
+|----|----|----Type = librarian [C4] out of {C4x2}
+|----|----|----Type = professor [C4] out of {C4x1}
+|----|----|----Type = engineer [C1] out of {C1x1}
+|----|----Vacation > 46.0 [C5] out of {C4x1 C5x33}
+|----eCredit > 26.0
+|----|----property <= 3.0437 [C4] out of {C4x18 C1x3}
+|----|----property > 3.0437
+|----|----|----eCredit <= 62.0
+|----|----|----|----salary <= 20.07 [C4] out of {C4x6 C1x2}
+|----|----|----|----salary > 20.07
+|----|----|----|----|----property <= 4.9717
+|----|----|----|----|----|----property <= 3.2021 [C1] out of {C1x2}
+|----|----|----|----|----|----property > 3.2021 [C4] out of {C4x2}
+|----|----|----|----|----property > 4.9717 [C1] out of {C1x3}
+|----|----|----eCredit > 62.0 [C4] out of {C4x10 C1x3}

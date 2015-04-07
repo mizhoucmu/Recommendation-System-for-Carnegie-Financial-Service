@@ -12,7 +12,7 @@ Project Description:
 	Product B: predict the prospective of a new product basing on its attributes like: service type, customer, monthly fee, advertisement, size, promotion method, interest rate and periodl, the prediction result will be binary: 1 (yes) or 0 (no).
 	We will use decision tree to predict classification.
 	Coding language: Implement this decision tree in java;
-	Algorithm: combination of J4.8 and C4.5 (gainRation Integrated), will use pre-prune to raise accuracy of this decision tree
+	Algorithm: combination of J48 and C4.5 (gainRation Integrated), will use pre-prune to raise accuracy of this decision tree
 
 HOWTO:
 	Run jar file like this:

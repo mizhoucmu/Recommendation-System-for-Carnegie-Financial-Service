@@ -1,18 +1,13 @@
-Team name : Team8 (Friday Night)
-
-members: 
-	Kunal    Sangwan
-	Zhou    Su
-	Mi    Zhou
-	Mengqian    Chu
-	Kan    Yang
 
 Project Description:
 	Product A: recommend proper product for customer basing on their attributes like: type (student, professor, engineer, librarian, doctor), lifestyle, vacation,eCredit, salary,property;
-	Product B: predict the prospective of a new product basing on its attributes like: service type, customer, monthly fee, advertisement, size, promotion method, interest rate and periodl, the prediction result will be binary: 1 (yes) or 0 (no).
+	Product B: predict the prospective of a new product basing on its attributes like: service type, customer, monthly fee, advertisement, size, promotion method, interest rate and period, the prediction result will be binary: 1 (yes) or 0 (no).
 	We will use decision tree to predict classification.
 	Coding language: Implement this decision tree in java;
 	Algorithm: combination of J48 and C4.5 (gainRation Integrated), will use pre-prune to raise accuracy of this decision tree
+
+Code explanation: 
+	https://www.youtube.com/watch?v=LoHSWFnADO0
 
 HOWTO:
 	Run jar file like this:

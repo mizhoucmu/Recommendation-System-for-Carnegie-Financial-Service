@@ -6,8 +6,9 @@ Project Description:
 	Coding language: Implement this decision tree in java;
 	Algorithm: combination of J48 and C4.5 (gainRation Integrated), will use pre-prune to raise accuracy of this decision tree
 
-Code explanation: 
-	https://www.youtube.com/watch?v=LoHSWFnADO0
+ 
+	
+	[![Code explanation](http://img.youtube.com/vi/LoHSWFnADO0/0.jpg)](http://www.youtube.com/watch?v=LoHSWFnADO0)
 
 HOWTO:
 	Run jar file like this:

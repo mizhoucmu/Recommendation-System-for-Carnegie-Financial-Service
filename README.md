@@ -1,4 +1,5 @@
 
+#Code Explain
 [![Code explanation](http://img.youtube.com/vi/LoHSWFnADO0/0.jpg)](http://www.youtube.com/watch?v=LoHSWFnADO0)
 
 #Project Description:
@@ -110,4 +111,4 @@
 	average accuracy of this cross validation is 0.861111111111111
 
 #Reference:
-[《Data Mining: Practical Machine Learning Tools and Techniques, Third Edition》] (http://www.amazon.com/Data-Mining-Practical-Techniques-Management/dp/0123748569/ref=sr_1_1?ie=UTF8&qid=1428291671&sr=8-1&keywords=Data+Mining%3A+Practical+Machine+Learning+Tools+and+Techniques)
+[Data Mining: Practical Machine Learning Tools and Techniques, Third Edition] (http://www.amazon.com/Data-Mining-Practical-Techniques-Management/dp/0123748569/ref=sr_1_1?ie=UTF8&qid=1428291671&sr=8-1&keywords=Data+Mining%3A+Practical+Machine+Learning+Tools+and+Techniques)

@@ -1,17 +1,16 @@
 
-Project Description:
-	Product A: recommend proper product for customer basing on their attributes like: type (student, professor, engineer, librarian, doctor), lifestyle, vacation,eCredit, salary,property;
-	Product B: predict the prospective of a new product basing on its attributes like: service type, customer, monthly fee, advertisement, size, promotion method, interest rate and period, the prediction result will be binary: 1 (yes) or 0 (no).
+[![Code explanation](http://img.youtube.com/vi/LoHSWFnADO0/0.jpg)](http://www.youtube.com/watch?v=LoHSWFnADO0)
+
+#Project Description:
+	##Product A: recommend proper product for customer basing on their attributes like: type (student, professor, engineer, librarian, doctor), lifestyle, vacation,eCredit, salary,property;
+	##Product B: predict the prospective of a new product basing on its attributes like: service type, customer, monthly fee, advertisement, size, promotion method, interest rate and period, the prediction result will be binary: 1 (yes) or 0 (no).
 	We will use decision tree to predict classification.
 	Coding language: Implement this decision tree in java;
 	Algorithm: combination of J48 and C4.5 (gainRation Integrated), will use pre-prune to raise accuracy of this decision tree
 
  
-	
-	[![Code explanation](http://img.youtube.com/vi/LoHSWFnADO0/0.jpg)](http://www.youtube.com/watch?v=LoHSWFnADO0)
-	[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
-HOWTO:
+#HOWTO:
 	Run jar file like this:
 
 	java -jar decide.jar <TRAINING_DATA_PATH> <TEST_DATA_PATH>
@@ -20,17 +19,17 @@ HOWTO:
 
 	(only absolute path is supported...)
 
-Example: 
+#Example: 
 	java -jar decide.jar /Users/mizhou/Documents/data/B/trainProdIntro.binary.arff /Users/mizhou/Documents/data/B/testProdIntro.binary.arff
 
 
-Result:
+#Result:
 	once it is executed successfully, it will generate 3 files in the same path:
 
-(1) *****_tree.txt 
-Location: 
+##(1) *****_tree.txt 
+###Location: 
 	in the same directory as training data, **** is the name of training data, in this example, it generates trainProdIntro_tree.txt in /Users/mizhou/Documents/data/B/
-Description: 
+###Description: 
 	it generates a best decision tree using training data
 	best decision tree means this decision tree is pruned based on best threshhold
 	this program will tune this "threshhold" automatically so that we can get the highest accuracy during cross validation
@@ -53,10 +52,10 @@ Description:
 
 
 
-(2)*****_result.csv
-Location: 
+##(2)*****_result.csv
+###Location: 
 	in the same directory as test data, **** is the name of test data, in this example, it generates testProdIntro_result.csv in /Users/mizhou/Documents/data/B/
-Description: 
+###Description: 
 	it will print out classification result for the test data like this:
 	you can open it directly in Microsoft EXCEL to get a better display format
 
@@ -70,10 +69,10 @@ Description:
 			Loan,Other,2.17,3.07,Small,Full,1,89,1
 			Mortgage,Business,1.2,1.17,Small,Web,4,10,1
 			
-(3) *****_crossValidationResult.csv
-Location: 
+##(3) *****_crossValidationResult.csv
+###Location: 
 	in the same directory as training data, **** is the name of training data, in this example, it generates trainProdSelection_crossValidationResult.csv in /Users/mizhou/Documents/data/B/
-Description: 
+###Description: 
 	it will print out cross validation details, you can open it directly in Microsoft Excel to get a better display format
 	Attribute names are printed on the first row,
 	
@@ -110,5 +109,5 @@ Description:
 	it also print the average accuracy for this cross validation at the end of the file:
 	average accuracy of this cross validation is 0.861111111111111
 
-Reference:
-《Data Mining: Practical Machine Learning Tools and Techniques, Third Edition》 http://www.amazon.com/Data-Mining-Practical-Techniques-Management/dp/0123748569/ref=sr_1_1?ie=UTF8&qid=1428291671&sr=8-1&keywords=Data+Mining%3A+Practical+Machine+Learning+Tools+and+Techniques
+#Reference:
+[《Data Mining: Practical Machine Learning Tools and Techniques, Third Edition》] (http://www.amazon.com/Data-Mining-Practical-Techniques-Management/dp/0123748569/ref=sr_1_1?ie=UTF8&qid=1428291671&sr=8-1&keywords=Data+Mining%3A+Practical+Machine+Learning+Tools+and+Techniques)
